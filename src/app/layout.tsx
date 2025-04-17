@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Mulish, Roboto } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils"; // adjust path as necessary
-import {Toast} from "@/components/ui/toaster"
+// import {Toast} from "@/components/ui/toaster"
 import NextTopLoadoer from "nextjs-toploader";
 import {NuqsAdapter} from "nuqs/adapters/next/app";
 
@@ -37,7 +37,7 @@ export default function RootLayout({
         
         <NextTopLoadoer showSpinner={false} />
         <NuqsAdapter>{children}</NuqsAdapter>
-        <Toast />
+        {/* <Toast /> */}
       </body>
     </html>
   );
