@@ -133,9 +133,9 @@ export const ClassifiedCard = (props: ClassifiedCardProps) => {
                 asChild
                 variant='outline'
                 size='sm'>
-                    <Link href={routes}>
+                    {/* <Link href={routes}>
                     Reserve
-                    </Link>
+                    </Link> */}
                 </Button>
                 <Button className='flex-1 py-2 lg:py-2.5 h-full text-xs md:text-sm xl:text-base font-semibold border-2 border-slate-300 text-slate-800 rounded-md bg-white hover:bg-slate-100 transition-colors duration-200'
                 asChild
